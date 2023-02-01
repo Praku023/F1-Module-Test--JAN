@@ -1,0 +1,71 @@
+.nav-link1:link {
+  text-decoration: none;
+}
+span {
+  position: flex;
+}
+.form {
+  padding: 6px 12px;
+
+  position: relative;
+  top: 90vh;
+  height: 38vh;
+  margin-left: 35px;
+}
+.col {
+  padding-bottom: 10px;
+}
+table {
+  position: absolute;
+  width: 1650px;
+  height: 451px;
+  left: 39px;
+  top: 240vh;
+}
+.card0 {
+  margin-top: 45px;
+  width: 530px;
+  margin-left: 39px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  margin-top: 45px;
+  width: 630px;
+  height: 775px;
+  left: 499px;
+  top: 75vh;
+}
+
+.card2 {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 630px;
+  height: 775px;
+  left: 959px;
+  top: 73vh;
+}
+.acc {
+  margin-top: 20px;
+  margin-left: 39px;
+  width: 200vh;
+}
+.pic {
+  width: 200vh;
+  margin-top: 20px;
+  margin-left: 39px;
+}
+.nav {
+  margin-left: 30px;
+}
+.d-flex {
+  margin-left: 620px;
+}
