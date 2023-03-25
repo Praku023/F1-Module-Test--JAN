@@ -17,12 +17,19 @@ span {
 }
 table {
   position: absolute;
-  width: 1650px;
+  width: 160px;
   height: 451px;
   left: 39px;
-  top: 240vh;
+  top: 250vh;
 }
-.card0 {
+.cardmain
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  }
+/*.card0 {
   margin-top: 45px;
   width: 530px;
   margin-left: 39px;
@@ -53,6 +60,20 @@ table {
   left: 959px;
   top: 73vh;
 }
+.card3 {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 630px;
+  height: 775px;
+  left: 959px;
+  top: 73vh;
+}*/
+
 .acc {
   margin-top: 20px;
   margin-left: 39px;
@@ -69,3 +90,24 @@ table {
 .d-flex {
   margin-left: 620px;
 }
+
+/*media Tag*/
+/*card*/
+@media (min-width:200) , (max-width:500)
+{  .acc
+  {
+    height: 30px;
+  }
+  .cardmain
+  { 
+    display:flex;
+    flex-direction: column;
+  }
+  .table caption-top
+  {
+    margin-top: 2%;
+    width: auto;
+  }
+
+  
+}  
